@@ -1,0 +1,45 @@
+:root {
+  --bg-color: #536ade;
+  --box-bg-color: #e6e8f4;
+  --box-text-color: #323545;
+  --box-second-color: #b1bbec;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', Helvetica, sans-serif;  
+    background-color: var(--bg-color);
+}
+
+.container {
+  width: 95%;
+  margin-top: 4em ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+    width: 70%;
+  background-color:var(--box-bg-color);
+
+  box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);  
+}
+
+.box h1 {
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    background-color: var(--box-second-color);
+    color: var(--box-text-color);
+}
+
+.box .data {
+    font-size: 1rem;
+    padding: 0.5rem;    
+}
+
